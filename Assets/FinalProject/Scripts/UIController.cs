@@ -18,9 +18,16 @@ public class UIController : MonoBehaviour
     Toggle _toggleVolume;
 
     string _previousPanel;
+
+    bool _isPlaySound = true;
+    [SerializeField]
+    Sprite[] soundSprites;
+    [SerializeField]
+    Button soundBtn;
     public void Start()
     {
         _previousPanel = _mainPanel.name.ToString();
+        ChangeVolume();
     }
     public void ChoosePanel(string namePanel)
     {
@@ -43,14 +50,31 @@ public class UIController : MonoBehaviour
             AudioListener.volume = _sliderVolume.value;
         }
         else
+        {
             AudioListener.volume = 0;
+            _isPlaySound = false;
+        }
+           
     }
-    
 
+    public void ChangeVolume()
+    {
+        if (_isPlaySound)
+        {
+            soundBtn.gameObject.GetComponent<Image>().sprite = soundSprites[0];
+            AudioListener.volume = 1;
+            _isPlaySound = false;
+        }
+        else
+        {
+            soundBtn.gameObject.GetComponent<Image>().sprite = soundSprites[1];
+            AudioListener.volume = 0;
+            _isPlaySound = true;
+        }
+    }
 
     public void ExitGame()
     {
         Application.Quit();
     }
-    
 }
