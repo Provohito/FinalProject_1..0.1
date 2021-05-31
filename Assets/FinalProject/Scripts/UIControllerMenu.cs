@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UIController : MonoBehaviour
+public class UIControllerMenu : MonoBehaviour
 {
     [SerializeField]
     GameObject _playPanel;
@@ -19,15 +19,10 @@ public class UIController : MonoBehaviour
 
     string _previousPanel;
 
-    bool _isPlaySound = true;
-    [SerializeField]
-    Sprite[] soundSprites;
-    [SerializeField]
-    Button soundBtn;
+    
     public void Start()
     {
         _previousPanel = _mainPanel.name.ToString();
-        ChangeVolume();
     }
     public void ChoosePanel(string namePanel)
     {
@@ -48,30 +43,16 @@ public class UIController : MonoBehaviour
         if (_toggleVolume.isOn)
         {
             AudioListener.volume = _sliderVolume.value;
+            PlayerPrefs.SetString("_isPlaySound", "true");
         }
         else
         {
             AudioListener.volume = 0;
-            _isPlaySound = false;
+            PlayerPrefs.SetString("_isPlaySound", "false");
         }
            
     }
 
-    public void ChangeVolume()
-    {
-        if (_isPlaySound)
-        {
-            soundBtn.gameObject.GetComponent<Image>().sprite = soundSprites[0];
-            AudioListener.volume = 1;
-            _isPlaySound = false;
-        }
-        else
-        {
-            soundBtn.gameObject.GetComponent<Image>().sprite = soundSprites[1];
-            AudioListener.volume = 0;
-            _isPlaySound = true;
-        }
-    }
 
     public void ExitGame()
     {

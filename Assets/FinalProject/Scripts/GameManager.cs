@@ -285,14 +285,14 @@ public class GameManager : Loader<GameManager>
     private void HandleEscape()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
-	{
+	    {
             TowerManagerScript.Instance.DisabledDrag();
             TowerManagerScript.Instance.towerButtonPressed = null;
-	}
+	    }
     }
 
     private void Awake()
     {
-        //DontDestroyOnLoad(this.gameObject); // подумать наж этим
+        DontDestroyOnLoad(this.gameObject);
     }
 }
