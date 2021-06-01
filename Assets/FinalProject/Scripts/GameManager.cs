@@ -113,10 +113,6 @@ public class GameManager : Loader<GameManager>
         audioSource = GetComponent<AudioSource>();
         ShowMenu();
     }
-    private void Update()
-    {
-        HandleEscape();
-    }
 
     IEnumerator Spawn()
     {
@@ -280,15 +276,6 @@ public class GameManager : Loader<GameManager>
                 break;
         }
         playBtn.gameObject.SetActive(true);
-    }
-
-    private void HandleEscape()
-    {
-        if (Input.GetKeyDown(KeyCode.Escape))
-	    {
-            TowerManagerScript.Instance.DisabledDrag();
-            TowerManagerScript.Instance.towerButtonPressed = null;
-	    }
     }
 
     private void Awake()

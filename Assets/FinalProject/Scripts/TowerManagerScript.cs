@@ -26,12 +26,17 @@ public class TowerManagerScript : Loader<TowerManagerScript>
         {
             Vector2 mousePoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             RaycastHit2D hit = Physics2D.Raycast(mousePoint, Vector2.zero);
-            if (hit.collider != null && hit.collider.tag == "towerSite" && GameManager.Instance.TotalMoney >= towerButtonPressed.TowerPrice) 
+            if (hit.collider != null && hit.collider.tag == "towerSite" && GameManager.Instance.TotalMoney >= towerButtonPressed.TowerPrice)
             {
                 buildTile = hit.collider;
                 buildTile.tag = "TowerSideFull";
                 RegisterBuildSite(buildTile);
                 PlaceTower(hit);
+            }
+            else
+            {
+                DisabledDrag();
+                towerButtonPressed = null;
             }
 
            
