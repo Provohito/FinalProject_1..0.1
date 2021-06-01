@@ -18,10 +18,15 @@ public class AddPlayerScript : MonoBehaviour
 
     public void CheckName()
     {
-        string _namePlayer = namePlayer.text; // +
+        string _namePlayer = namePlayer.text;
         Debug.Log(CheckCount(_namePlayer) + " " + CheckEnglish(_namePlayer) + " " + CheckFirstLetter(_namePlayer));
         if (CheckCount(_namePlayer) && CheckEnglish(_namePlayer) && CheckFirstLetter(_namePlayer))
         {
+            if (!PlayerPrefs.HasKey(_namePlayer))
+            {
+                PlayerPrefs.SetString("NamePlayer", _namePlayer);
+                PlayerPrefs.SetInt("LevelCompleted", 1);
+            }
             MainPanel.SetActive(true);
             this.gameObject.SetActive(false);
         }

@@ -28,19 +28,19 @@ public class LevelChooseScript : MonoBehaviour
 
         switch (_levelCompleted)
         {
-            case 1:
-                Stage_2.interactable = true;
-                break;
             case 2:
                 Stage_2.interactable = true;
-                Stage_3.interactable = true;
                 break;
             case 3:
                 Stage_2.interactable = true;
                 Stage_3.interactable = true;
-                Stage_4.interactable = true;
                 break;
             case 4:
+                Stage_2.interactable = true;
+                Stage_3.interactable = true;
+                Stage_4.interactable = true;
+                break;
+            case 5:
                 Stage_2.interactable = true;
                 Stage_3.interactable = true;
                 Stage_4.interactable = true;

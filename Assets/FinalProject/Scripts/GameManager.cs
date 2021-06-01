@@ -103,6 +103,8 @@ public class GameManager : Loader<GameManager>
         }
     }
 
+    
+
     public List<Enemy> EnemyList = new List<Enemy>();
 
     const float spawnDelay = 0.5f;
@@ -282,4 +284,6 @@ public class GameManager : Loader<GameManager>
     {
         DontDestroyOnLoad(this.gameObject);
     }
+
+    
 }

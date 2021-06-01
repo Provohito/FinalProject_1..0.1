@@ -19,10 +19,12 @@ public class UIControllerMenu : MonoBehaviour
 
     string _previousPanel;
 
+    string _namePlayer;
     
     public void Start()
     {
         _previousPanel = _mainPanel.name.ToString();
+        _namePlayer = PlayerPrefs.GetString("NamePlayer");
     }
     public void ChoosePanel(string namePanel)
     {
