@@ -20,7 +20,52 @@ public class SoundManager : Loader  <SoundManager>
     AudioClip rock;
     [SerializeField]
     AudioClip towerBuild;
+    [SerializeField]
+    AudioClip fireBall1;
+    [SerializeField]
+    AudioClip mace;
+    [SerializeField]
+    AudioClip rock1;
+    [SerializeField]
+    AudioClip rrock;
+    [SerializeField]
+    AudioClip thorns;
 
+    public AudioClip FireBall1
+    {
+        get
+        {
+            return fireBall1;
+        }
+    }
+    public AudioClip Mace
+    {
+        get
+        {
+            return mace;
+        }
+    }
+    public AudioClip Rock1
+    {
+        get
+        {
+            return rock1;
+        }
+    }
+    public AudioClip Rrock
+    {
+        get
+        {
+            return rrock;
+        }
+    }
+    public AudioClip Thorns
+    {
+        get
+        {
+            return thorns;
+        }
+    }
     public AudioClip Arrow
     {
         get

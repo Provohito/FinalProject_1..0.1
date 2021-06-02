@@ -149,3 +149,8 @@ MonoBehaviour:
   newGame: {fileID: 8300000, guid: 7cc8ab8982cc5c54f92887b750ef39b5, type: 3}
   rock: {fileID: 8300000, guid: 014ac87b79550b0488ddd4f9df5f3085, type: 3}
   towerBuild: {fileID: 8300000, guid: f43f4f6af53c7ee498d51689a2feeef4, type: 3}
+  fireBall1: {fileID: 8300000, guid: 376cdfe54895ca84e87613e207ac7516, type: 3}
+  mace: {fileID: 8300000, guid: 3986efbf45bd5aa4686d0490392d09a9, type: 3}
+  rock1: {fileID: 8300000, guid: 876c629d54652fd40968004273e56321, type: 3}
+  rrock: {fileID: 8300000, guid: 5812db5edece97641bd677241b5b4bee, type: 3}
+  thorns: {fileID: 8300000, guid: eeb932acd3103f04da401b02656de942, type: 3}

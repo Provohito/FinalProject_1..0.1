@@ -5,12 +5,28 @@ using UnityEngine.UI;
 
 public class StartScript : MonoBehaviour
 {
+    [SerializeField]
+    private Scrollbar scrollbar;
 
-    public void Start()
+    private void Start()
     {
-        if (PlayerPrefs.HasKey("NamePlayer"))
-        {
+        StartCoroutine(FirstLoad());
+    }
 
+    IEnumerator FirstLoad()
+    {
+
+        yield return new WaitForSeconds(3f);
+        for (float ft = scrollbar.size; ft <= 1; ft += 0.0025f)
+        {
+            scrollbar.size += ft;
+            yield return new WaitForSeconds(.05f);
+            if (scrollbar.size == 1)
+            {
+                Debug.Log("Win");
+                StopAllCoroutines();
+            }
         }
     }
+
 }

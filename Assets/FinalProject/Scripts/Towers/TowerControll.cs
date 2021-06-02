@@ -58,6 +58,26 @@ public class TowerControll : MonoBehaviour
         {
             GameManager.Instance.AudioSource.PlayOneShot(SoundManager.Instance.Rock);
         }
+        else if (newProjectTile.PType == projectTileType.rock1)
+        {
+            GameManager.Instance.AudioSource.PlayOneShot(SoundManager.Instance.Rock1);
+        }
+        else if (newProjectTile.PType == projectTileType.mace)
+        {
+            GameManager.Instance.AudioSource.PlayOneShot(SoundManager.Instance.Mace);
+        }
+        else if (newProjectTile.PType == projectTileType.rrock)
+        {
+            GameManager.Instance.AudioSource.PlayOneShot(SoundManager.Instance.Rrock);
+        }
+        else if (newProjectTile.PType == projectTileType.fireball1)
+        {
+            GameManager.Instance.AudioSource.PlayOneShot(SoundManager.Instance.FireBall1);
+        }
+        else if (newProjectTile.PType == projectTileType.thorns)
+        {
+            GameManager.Instance.AudioSource.PlayOneShot(SoundManager.Instance.Thorns);
+        }
 
         if (Vector2.Distance(transform.localPosition, targetEnemy.transform.localPosition) > attackRadius)
         {
