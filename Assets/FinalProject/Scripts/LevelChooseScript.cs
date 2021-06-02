@@ -64,8 +64,4 @@ public class LevelChooseScript : MonoBehaviour
         Stage_5.interactable = false;
         PlayerPrefs.DeleteAll();
     }
-    void Update()
-    {
-        
-    }
 }

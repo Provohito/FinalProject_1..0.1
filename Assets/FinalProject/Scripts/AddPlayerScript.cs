@@ -14,19 +14,27 @@ public class AddPlayerScript : MonoBehaviour
     GameObject alertWindow;
     [SerializeField]
     GameObject MainPanel;
+    [SerializeField]
+    UIControllerMenu uiController;
 
 
-    public void CheckName()
+
+
+    private void Start()
+    {
+
+    }
+
+    public void SetName()
     {
         string _namePlayer = namePlayer.text;
         Debug.Log(CheckCount(_namePlayer) + " " + CheckEnglish(_namePlayer) + " " + CheckFirstLetter(_namePlayer));
         if (CheckCount(_namePlayer) && CheckEnglish(_namePlayer) && CheckFirstLetter(_namePlayer))
         {
-            if (!PlayerPrefs.HasKey(_namePlayer))
-            {
-                PlayerPrefs.SetString("NamePlayer", _namePlayer);
-                PlayerPrefs.SetInt("LevelCompleted", 1);
-            }
+
+            PlayerPrefs.SetString("NamePlayer", _namePlayer);
+            PlayerPrefs.SetInt("LevelCompleted", 1);
+            uiController.GetNamePlayer();
             MainPanel.SetActive(true);
             this.gameObject.SetActive(false);
         }

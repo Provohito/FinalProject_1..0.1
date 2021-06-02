@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -13,11 +14,15 @@ public class UIControllerGame : MonoBehaviour
     [SerializeField]
     GameObject infoPanel;
 
+
     private void Start()
     {
         ChangeVolume();
         _isPlaySound = PlayerPrefs.GetString("_isPlaySound");
     }
+
+
+    
 
     public void ChangeVolume()
     {

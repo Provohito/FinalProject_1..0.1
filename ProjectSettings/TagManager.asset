@@ -11,6 +11,7 @@ TagManager:
   - ProjectTile
   - Enemy
   - TowerSideFull
+  - namePanel
   layers:
   - Default
   - TransparentFX
