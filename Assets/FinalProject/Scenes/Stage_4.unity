@@ -1222,6 +1222,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2108177126382154418, guid: e58a4b5f327edad4cbc4f13c9207b6ff, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b5ad7b9f91cdd8a40873504e34025503, type: 3}
     - target: {fileID: 4079931926129280518, guid: e58a4b5f327edad4cbc4f13c9207b6ff, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -1230,10 +1234,34 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SelectedTower
       objectReference: {fileID: 0}
+    - target: {fileID: 5223611954172403273, guid: e58a4b5f327edad4cbc4f13c9207b6ff, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 26.616777
+      objectReference: {fileID: 0}
+    - target: {fileID: 5223611954172403273, guid: e58a4b5f327edad4cbc4f13c9207b6ff, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 26.616777
+      objectReference: {fileID: 0}
+    - target: {fileID: 5223611954172403273, guid: e58a4b5f327edad4cbc4f13c9207b6ff, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 26.616777
+      objectReference: {fileID: 0}
+    - target: {fileID: 5223611954172403273, guid: e58a4b5f327edad4cbc4f13c9207b6ff, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.3
+      objectReference: {fileID: 0}
     - target: {fileID: 6182083802646988542, guid: e58a4b5f327edad4cbc4f13c9207b6ff, type: 3}
       propertyPath: m_Name
       value: SecondTowerBtn
       objectReference: {fileID: 0}
+    - target: {fileID: 8979441415026713033, guid: e58a4b5f327edad4cbc4f13c9207b6ff, type: 3}
+      propertyPath: dragSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b5ad7b9f91cdd8a40873504e34025503, type: 3}
+    - target: {fileID: 8979441415026713033, guid: e58a4b5f327edad4cbc4f13c9207b6ff, type: 3}
+      propertyPath: towerObject
+      value: 
+      objectReference: {fileID: 5075845347027414659, guid: 88c83757c44c1ca4a9af15a2ffd1b179, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e58a4b5f327edad4cbc4f13c9207b6ff, type: 3}
 --- !u!1 &165792044
@@ -4677,6 +4705,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: FourthTowerBtn
       objectReference: {fileID: 0}
+    - target: {fileID: 3986473518029977222, guid: 37d192bc36ef68a4181ff4dd12fc83fe, type: 3}
+      propertyPath: dragSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 1db21397fa124414b8c21b8597d0f126, type: 3}
+    - target: {fileID: 3986473518029977222, guid: 37d192bc36ef68a4181ff4dd12fc83fe, type: 3}
+      propertyPath: towerObject
+      value: 
+      objectReference: {fileID: -7767991897165551842, guid: 75e78e86d48243c48a772a2f390755bf, type: 3}
+    - target: {fileID: 4647070540787119315, guid: 37d192bc36ef68a4181ff4dd12fc83fe, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.7
+      objectReference: {fileID: 0}
     - target: {fileID: 5419784115667716937, guid: 37d192bc36ef68a4181ff4dd12fc83fe, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -4689,6 +4729,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: TowerManagerScript, Assembly-CSharp
       objectReference: {fileID: 0}
+    - target: {fileID: 5875388820556442739, guid: 37d192bc36ef68a4181ff4dd12fc83fe, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 1db21397fa124414b8c21b8597d0f126, type: 3}
     - target: {fileID: 6223367992751283764, guid: 37d192bc36ef68a4181ff4dd12fc83fe, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -7330,10 +7374,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4671815583305284957, guid: 9c23d0d01f20ae4469a6abde3e753019, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 1c5d592361c288b478bab05822de01d6, type: 3}
+    - target: {fileID: 4671815583305284958, guid: 9c23d0d01f20ae4469a6abde3e753019, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 25.64028
+      objectReference: {fileID: 0}
+    - target: {fileID: 4671815583305284958, guid: 9c23d0d01f20ae4469a6abde3e753019, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 25.64028
+      objectReference: {fileID: 0}
+    - target: {fileID: 4671815583305284958, guid: 9c23d0d01f20ae4469a6abde3e753019, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 25.64028
+      objectReference: {fileID: 0}
     - target: {fileID: 7732052555994685971, guid: 9c23d0d01f20ae4469a6abde3e753019, type: 3}
       propertyPath: m_Name
       value: EighthTowerBtn
       objectReference: {fileID: 0}
+    - target: {fileID: 7957250531868759811, guid: 9c23d0d01f20ae4469a6abde3e753019, type: 3}
+      propertyPath: dragSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 1c5d592361c288b478bab05822de01d6, type: 3}
+    - target: {fileID: 7957250531868759811, guid: 9c23d0d01f20ae4469a6abde3e753019, type: 3}
+      propertyPath: towerObject
+      value: 
+      objectReference: {fileID: 4920142523611799566, guid: d4a04a4449986504eb3c1ee77a4abb6b, type: 3}
     - target: {fileID: 8291269468006692592, guid: 9c23d0d01f20ae4469a6abde3e753019, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -8060,6 +8128,34 @@ PrefabInstance:
       propertyPath: totalEscapedLabel
       value: 
       objectReference: {fileID: 1474162381}
+    - target: {fileID: 6148793515176482008, guid: 64aa90bcd20b8d14caedc68375504838, type: 3}
+      propertyPath: enemies.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6148793515176482008, guid: 64aa90bcd20b8d14caedc68375504838, type: 3}
+      propertyPath: enemies.Array.data[0]
+      value: 
+      objectReference: {fileID: 9080530756781323062, guid: 8c1de66eefbf4fd4d84428d7d6faf879, type: 3}
+    - target: {fileID: 6148793515176482008, guid: 64aa90bcd20b8d14caedc68375504838, type: 3}
+      propertyPath: enemies.Array.data[1]
+      value: 
+      objectReference: {fileID: 3168058675224624689, guid: 1bbe873c4f7891845b0dbe5ff015ded8, type: 3}
+    - target: {fileID: 6148793515176482008, guid: 64aa90bcd20b8d14caedc68375504838, type: 3}
+      propertyPath: enemies.Array.data[2]
+      value: 
+      objectReference: {fileID: 2322233044443203238, guid: 407defc82da99644c86f416c5ce1a221, type: 3}
+    - target: {fileID: 6148793515176482008, guid: 64aa90bcd20b8d14caedc68375504838, type: 3}
+      propertyPath: enemies.Array.data[3]
+      value: 
+      objectReference: {fileID: 5881143911982440351, guid: 00ebde7d4b4ac0044be4392075aa40ef, type: 3}
+    - target: {fileID: 6148793515176482008, guid: 64aa90bcd20b8d14caedc68375504838, type: 3}
+      propertyPath: enemies.Array.data[4]
+      value: 
+      objectReference: {fileID: 6666024375019248026, guid: 4e10857891022f64ab4bf5bdc2348fcb, type: 3}
+    - target: {fileID: 6148793515176482008, guid: 64aa90bcd20b8d14caedc68375504838, type: 3}
+      propertyPath: enemies.Array.data[5]
+      value: 
+      objectReference: {fileID: 7155867482822422319, guid: 24f6ebf66b2234948abc5a33c979b5d7, type: 3}
     - target: {fileID: 6148793515176482009, guid: 64aa90bcd20b8d14caedc68375504838, type: 3}
       propertyPath: m_RootOrder
       value: 1

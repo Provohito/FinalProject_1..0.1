@@ -10117,7 +10117,7 @@ MonoBehaviour:
   - {fileID: -2485853453045848371, guid: 5d29e65b43c04a744bc04a41e6153093, type: 3}
   - {fileID: -2868591522439195930, guid: 5d29e65b43c04a744bc04a41e6153093, type: 3}
   soundBtn: {fileID: 1608227912}
-  infoPanel: {fileID: 0}
+  infoPanel: {fileID: 1404156204}
 --- !u!4 &788287953
 Transform:
   m_ObjectHideFlags: 0
@@ -17431,6 +17431,14 @@ PrefabInstance:
       propertyPath: totalEscapedLabel
       value: 
       objectReference: {fileID: 1474162381}
+    - target: {fileID: 6148793515176482008, guid: 64aa90bcd20b8d14caedc68375504838, type: 3}
+      propertyPath: enemies.Array.data[0]
+      value: 
+      objectReference: {fileID: 9080530756781323062, guid: 8c1de66eefbf4fd4d84428d7d6faf879, type: 3}
+    - target: {fileID: 6148793515176482008, guid: 64aa90bcd20b8d14caedc68375504838, type: 3}
+      propertyPath: enemies.Array.data[1]
+      value: 
+      objectReference: {fileID: 993640965124278215, guid: 264f01232b30a574a82c58f11bb9b057, type: 3}
     - target: {fileID: 6148793515176482009, guid: 64aa90bcd20b8d14caedc68375504838, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -17727,7 +17735,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!224 &1267163416
 RectTransform:

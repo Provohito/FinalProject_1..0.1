@@ -348,6 +348,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1512761271}
     m_Modifications:
+    - target: {fileID: 2226358557761758685, guid: 19895ccc24f58fa499596e0093ef24a1, type: 3}
+      propertyPath: dragSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5bdb2a7841fa8d2429a2a8c42a4a35c0, type: 3}
+    - target: {fileID: 2226358557761758685, guid: 19895ccc24f58fa499596e0093ef24a1, type: 3}
+      propertyPath: towerObject
+      value: 
+      objectReference: {fileID: 9113192342635764382, guid: 2544e4ceedb6e0749ba8203280847aba, type: 3}
     - target: {fileID: 2856886891324396487, guid: 19895ccc24f58fa499596e0093ef24a1, type: 3}
       propertyPath: m_Name
       value: ThirdTowerBtn
@@ -360,6 +368,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SelectedTower
       objectReference: {fileID: 0}
+    - target: {fileID: 7623160208464521096, guid: 19895ccc24f58fa499596e0093ef24a1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8664576982454288168, guid: 19895ccc24f58fa499596e0093ef24a1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5bdb2a7841fa8d2429a2a8c42a4a35c0, type: 3}
     - target: {fileID: 9217331235898920303, guid: 19895ccc24f58fa499596e0093ef24a1, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1405,10 +1421,34 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SelectedTower
       objectReference: {fileID: 0}
+    - target: {fileID: 1251601369318333793, guid: d29f9f7621c666a47b9c5c6cb52cda6e, type: 3}
+      propertyPath: dragSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 882f29d7141c191449e06ee75044ad8c, type: 3}
+    - target: {fileID: 1251601369318333793, guid: d29f9f7621c666a47b9c5c6cb52cda6e, type: 3}
+      propertyPath: towerObject
+      value: 
+      objectReference: {fileID: 8418319203270028503, guid: e34a8207688d4f741895f69cceb0bc2c, type: 3}
     - target: {fileID: 1476764194915821681, guid: d29f9f7621c666a47b9c5c6cb52cda6e, type: 3}
       propertyPath: m_Name
       value: SixthTowerBtn
       objectReference: {fileID: 0}
+    - target: {fileID: 4604612199460403004, guid: d29f9f7621c666a47b9c5c6cb52cda6e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 37.341427
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604612199460403004, guid: d29f9f7621c666a47b9c5c6cb52cda6e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 32.924324
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604612199460403004, guid: d29f9f7621c666a47b9c5c6cb52cda6e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 37.341427
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604612199460403007, guid: d29f9f7621c666a47b9c5c6cb52cda6e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 882f29d7141c191449e06ee75044ad8c, type: 3}
     - target: {fileID: 8106525161363015268, guid: d29f9f7621c666a47b9c5c6cb52cda6e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -5184,6 +5224,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: FourthTowerBtn
       objectReference: {fileID: 0}
+    - target: {fileID: 3986473518029977222, guid: 37d192bc36ef68a4181ff4dd12fc83fe, type: 3}
+      propertyPath: dragSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ac2faee7d3f79c643842dc15ac38e0e8, type: 3}
+    - target: {fileID: 3986473518029977222, guid: 37d192bc36ef68a4181ff4dd12fc83fe, type: 3}
+      propertyPath: towerObject
+      value: 
+      objectReference: {fileID: 7963584864214959966, guid: f09e4ef63234cd340b977e58f0709c8a, type: 3}
+    - target: {fileID: 4647070540787119315, guid: 37d192bc36ef68a4181ff4dd12fc83fe, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5419784115667716937, guid: 37d192bc36ef68a4181ff4dd12fc83fe, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -5196,6 +5248,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: TowerManagerScript, Assembly-CSharp
       objectReference: {fileID: 0}
+    - target: {fileID: 5875388820556442739, guid: 37d192bc36ef68a4181ff4dd12fc83fe, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ac2faee7d3f79c643842dc15ac38e0e8, type: 3}
     - target: {fileID: 6223367992751283764, guid: 37d192bc36ef68a4181ff4dd12fc83fe, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -8087,6 +8143,18 @@ PrefabInstance:
       propertyPath: totalEscapedLabel
       value: 
       objectReference: {fileID: 1474162381}
+    - target: {fileID: 6148793515176482008, guid: 64aa90bcd20b8d14caedc68375504838, type: 3}
+      propertyPath: enemies.Array.data[0]
+      value: 
+      objectReference: {fileID: 6666024375019248026, guid: 4e10857891022f64ab4bf5bdc2348fcb, type: 3}
+    - target: {fileID: 6148793515176482008, guid: 64aa90bcd20b8d14caedc68375504838, type: 3}
+      propertyPath: enemies.Array.data[1]
+      value: 
+      objectReference: {fileID: 4416582884475291725, guid: 02ed716b78cb02b4a97de0ab6a759224, type: 3}
+    - target: {fileID: 6148793515176482008, guid: 64aa90bcd20b8d14caedc68375504838, type: 3}
+      propertyPath: enemies.Array.data[2]
+      value: 
+      objectReference: {fileID: 2322233044443203238, guid: 407defc82da99644c86f416c5ce1a221, type: 3}
     - target: {fileID: 6148793515176482009, guid: 64aa90bcd20b8d14caedc68375504838, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -8224,7 +8292,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!224 &1267163416
 RectTransform:
